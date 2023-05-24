@@ -7,3 +7,29 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.bird-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px; /* Adjust the width to match your image dimensions */
+  height: 100px; /* Adjust the height to match your image dimensions */
+
+  animation-name: birdAnimation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes birdAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

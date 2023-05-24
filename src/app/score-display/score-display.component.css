@@ -1,11 +1,17 @@
 .score-display {
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
 }
 
 h2 {
-  font-size: 18px;
+  font-family: "04b_19", sans-serif;
+  font-size: 48px;
   font-weight: bold;
-  color: #000;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+  margin: 0;
 }
