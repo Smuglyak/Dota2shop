@@ -1,0 +1,9 @@
+.bird {
+  width: 40px;
+  height: 30px;
+  background-color: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
